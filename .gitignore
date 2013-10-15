@@ -1,4 +1,5 @@
 CurvedPathDecoder.xcodeproj/project.xcworkspace/xcuserdata/
 CurvedPathDecoder.xcodeproj/xcuserdata
+*.xccheckout
 *.DS_Store
 __MACOSX/
