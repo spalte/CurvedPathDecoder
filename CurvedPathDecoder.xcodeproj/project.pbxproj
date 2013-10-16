@@ -7,12 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F35E13F180EE76D0010B0AA /* CPRCurvedPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F35E13E180EE76D0010B0AA /* CPRCurvedPath.m */; };
+		4F35E148180EE7B40010B0AA /* N3BezierCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F35E141180EE7B40010B0AA /* N3BezierCore.m */; };
+		4F35E149180EE7B40010B0AA /* N3BezierCoreAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F35E143180EE7B40010B0AA /* N3BezierCoreAdditions.m */; };
+		4F35E14A180EE7B40010B0AA /* N3BezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F35E145180EE7B40010B0AA /* N3BezierPath.m */; };
+		4F35E14B180EE7B40010B0AA /* N3Geometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F35E147180EE7B40010B0AA /* N3Geometry.m */; };
+		4F35E14E180EE8400010B0AA /* CPRObliqueSliceOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F35E14D180EE8400010B0AA /* CPRObliqueSliceOperation.m */; };
+		4F35E151180EE8680010B0AA /* CPRGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F35E150180EE8680010B0AA /* CPRGenerator.m */; };
+		4F35E154180EE8850010B0AA /* CPRGeneratorOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F35E153180EE8850010B0AA /* CPRGeneratorOperation.m */; };
+		4F35E157180EE8AF0010B0AA /* CPRHorizontalFillOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F35E156180EE8AF0010B0AA /* CPRHorizontalFillOperation.m */; };
+		4F35E15A180EE8DF0010B0AA /* CPRVolumeData.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F35E159180EE8DF0010B0AA /* CPRVolumeData.m */; };
+		4F35E15D180EE8F10010B0AA /* CPRProjectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F35E15C180EE8F10010B0AA /* CPRProjectionOperation.m */; };
+		4F35E160180EE9320010B0AA /* CPRUnsignedInt16ImageRep.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F35E15F180EE9320010B0AA /* CPRUnsignedInt16ImageRep.m */; };
+		4F35E163180EE9450010B0AA /* CPRGeneratorRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F35E162180EE9450010B0AA /* CPRGeneratorRequest.m */; };
+		4F35E168180EE9710010B0AA /* CPRStraightenedOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F35E165180EE9710010B0AA /* CPRStraightenedOperation.m */; };
+		4F35E169180EE9710010B0AA /* CPRStretchedOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F35E167180EE9710010B0AA /* CPRStretchedOperation.m */; };
+		4F35E16B180EE99A0010B0AA /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F35E16A180EE99A0010B0AA /* AppKit.framework */; };
 		4FA0A31A17EB7B8400492DF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA0A31917EB7B8400492DF9 /* main.m */; };
-		4FA0A32A17EB7BFF00492DF9 /* N3BezierCore.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA0A32517EB7BFF00492DF9 /* N3BezierCore.m */; };
-		4FA0A32B17EB7BFF00492DF9 /* N3BezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA0A32717EB7BFF00492DF9 /* N3BezierPath.m */; };
-		4FA0A32C17EB7BFF00492DF9 /* N3Geometry.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA0A32917EB7BFF00492DF9 /* N3Geometry.m */; };
-		4FA0A32F17EB7CB100492DF9 /* N3BezierCoreAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA0A32E17EB7CB100492DF9 /* N3BezierCoreAdditions.m */; };
-		4FA0A33B17EB898500492DF9 /* CPRCurvedPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FA0A33A17EB898500492DF9 /* CPRCurvedPath.m */; };
 		4FAFA505180D706800D74B8A /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FAFA504180D706800D74B8A /* Accelerate.framework */; };
 		4FAFA507180D712300D74B8A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FAFA506180D712300D74B8A /* QuartzCore.framework */; };
 		4FAFA509180D712A00D74B8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FAFA508180D712A00D74B8A /* Foundation.framework */; };
@@ -31,18 +42,39 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4F35E13D180EE76D0010B0AA /* CPRCurvedPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPRCurvedPath.h; path = osirix/CPRCurvedPath.h; sourceTree = "<group>"; };
+		4F35E13E180EE76D0010B0AA /* CPRCurvedPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CPRCurvedPath.m; path = osirix/CPRCurvedPath.m; sourceTree = "<group>"; };
+		4F35E140180EE7B40010B0AA /* N3BezierCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = N3BezierCore.h; path = osirix/nitrogen/Sources/N3BezierCore.h; sourceTree = "<group>"; };
+		4F35E141180EE7B40010B0AA /* N3BezierCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = N3BezierCore.m; path = osirix/nitrogen/Sources/N3BezierCore.m; sourceTree = "<group>"; };
+		4F35E142180EE7B40010B0AA /* N3BezierCoreAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = N3BezierCoreAdditions.h; path = osirix/nitrogen/Sources/N3BezierCoreAdditions.h; sourceTree = "<group>"; };
+		4F35E143180EE7B40010B0AA /* N3BezierCoreAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = N3BezierCoreAdditions.m; path = osirix/nitrogen/Sources/N3BezierCoreAdditions.m; sourceTree = "<group>"; };
+		4F35E144180EE7B40010B0AA /* N3BezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = N3BezierPath.h; path = osirix/nitrogen/Sources/N3BezierPath.h; sourceTree = "<group>"; };
+		4F35E145180EE7B40010B0AA /* N3BezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = N3BezierPath.m; path = osirix/nitrogen/Sources/N3BezierPath.m; sourceTree = "<group>"; };
+		4F35E146180EE7B40010B0AA /* N3Geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = N3Geometry.h; path = osirix/nitrogen/Sources/N3Geometry.h; sourceTree = "<group>"; };
+		4F35E147180EE7B40010B0AA /* N3Geometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = N3Geometry.m; path = osirix/nitrogen/Sources/N3Geometry.m; sourceTree = "<group>"; };
+		4F35E14C180EE8400010B0AA /* CPRObliqueSliceOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPRObliqueSliceOperation.h; path = osirix/CPRObliqueSliceOperation.h; sourceTree = "<group>"; };
+		4F35E14D180EE8400010B0AA /* CPRObliqueSliceOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CPRObliqueSliceOperation.m; path = osirix/CPRObliqueSliceOperation.m; sourceTree = "<group>"; };
+		4F35E14F180EE8680010B0AA /* CPRGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPRGenerator.h; path = osirix/CPRGenerator.h; sourceTree = "<group>"; };
+		4F35E150180EE8680010B0AA /* CPRGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CPRGenerator.m; path = osirix/CPRGenerator.m; sourceTree = "<group>"; };
+		4F35E152180EE8850010B0AA /* CPRGeneratorOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPRGeneratorOperation.h; path = osirix/CPRGeneratorOperation.h; sourceTree = "<group>"; };
+		4F35E153180EE8850010B0AA /* CPRGeneratorOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CPRGeneratorOperation.m; path = osirix/CPRGeneratorOperation.m; sourceTree = "<group>"; };
+		4F35E155180EE8AF0010B0AA /* CPRHorizontalFillOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPRHorizontalFillOperation.h; path = osirix/CPRHorizontalFillOperation.h; sourceTree = "<group>"; };
+		4F35E156180EE8AF0010B0AA /* CPRHorizontalFillOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CPRHorizontalFillOperation.m; path = osirix/CPRHorizontalFillOperation.m; sourceTree = "<group>"; };
+		4F35E158180EE8DF0010B0AA /* CPRVolumeData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPRVolumeData.h; path = osirix/CPRVolumeData.h; sourceTree = "<group>"; };
+		4F35E159180EE8DF0010B0AA /* CPRVolumeData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CPRVolumeData.m; path = osirix/CPRVolumeData.m; sourceTree = "<group>"; };
+		4F35E15B180EE8F10010B0AA /* CPRProjectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPRProjectionOperation.h; path = osirix/CPRProjectionOperation.h; sourceTree = "<group>"; };
+		4F35E15C180EE8F10010B0AA /* CPRProjectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CPRProjectionOperation.m; path = osirix/CPRProjectionOperation.m; sourceTree = "<group>"; };
+		4F35E15E180EE9320010B0AA /* CPRUnsignedInt16ImageRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPRUnsignedInt16ImageRep.h; path = osirix/CPRUnsignedInt16ImageRep.h; sourceTree = "<group>"; };
+		4F35E15F180EE9320010B0AA /* CPRUnsignedInt16ImageRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CPRUnsignedInt16ImageRep.m; path = osirix/CPRUnsignedInt16ImageRep.m; sourceTree = "<group>"; };
+		4F35E161180EE9450010B0AA /* CPRGeneratorRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPRGeneratorRequest.h; path = osirix/CPRGeneratorRequest.h; sourceTree = "<group>"; };
+		4F35E162180EE9450010B0AA /* CPRGeneratorRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CPRGeneratorRequest.m; path = osirix/CPRGeneratorRequest.m; sourceTree = "<group>"; };
+		4F35E164180EE9710010B0AA /* CPRStraightenedOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPRStraightenedOperation.h; path = osirix/CPRStraightenedOperation.h; sourceTree = "<group>"; };
+		4F35E165180EE9710010B0AA /* CPRStraightenedOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CPRStraightenedOperation.m; path = osirix/CPRStraightenedOperation.m; sourceTree = "<group>"; };
+		4F35E166180EE9710010B0AA /* CPRStretchedOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CPRStretchedOperation.h; path = osirix/CPRStretchedOperation.h; sourceTree = "<group>"; };
+		4F35E167180EE9710010B0AA /* CPRStretchedOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CPRStretchedOperation.m; path = osirix/CPRStretchedOperation.m; sourceTree = "<group>"; };
+		4F35E16A180EE99A0010B0AA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		4FA0A31317EB7B8400492DF9 /* curvedPathDecoder */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = curvedPathDecoder; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FA0A31917EB7B8400492DF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4FA0A32417EB7BFF00492DF9 /* N3BezierCore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = N3BezierCore.h; sourceTree = "<group>"; };
-		4FA0A32517EB7BFF00492DF9 /* N3BezierCore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = N3BezierCore.m; sourceTree = "<group>"; };
-		4FA0A32617EB7BFF00492DF9 /* N3BezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = N3BezierPath.h; sourceTree = "<group>"; };
-		4FA0A32717EB7BFF00492DF9 /* N3BezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = N3BezierPath.m; sourceTree = "<group>"; };
-		4FA0A32817EB7BFF00492DF9 /* N3Geometry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = N3Geometry.h; sourceTree = "<group>"; };
-		4FA0A32917EB7BFF00492DF9 /* N3Geometry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = N3Geometry.m; sourceTree = "<group>"; };
-		4FA0A32D17EB7CB100492DF9 /* N3BezierCoreAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = N3BezierCoreAdditions.h; sourceTree = "<group>"; };
-		4FA0A32E17EB7CB100492DF9 /* N3BezierCoreAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = N3BezierCoreAdditions.m; sourceTree = "<group>"; };
-		4FA0A33917EB898500492DF9 /* CPRCurvedPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CPRCurvedPath.h; sourceTree = "<group>"; };
-		4FA0A33A17EB898500492DF9 /* CPRCurvedPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CPRCurvedPath.m; sourceTree = "<group>"; };
 		4FAFA4FD180D6D2D00D74B8A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4FAFA504180D706800D74B8A /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		4FAFA506180D712300D74B8A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
@@ -55,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F35E16B180EE99A0010B0AA /* AppKit.framework in Frameworks */,
 				4FAFA509180D712A00D74B8A /* Foundation.framework in Frameworks */,
 				4FAFA507180D712300D74B8A /* QuartzCore.framework in Frameworks */,
 				4FAFA505180D706800D74B8A /* Accelerate.framework in Frameworks */,
@@ -64,9 +97,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F35E13C180EE7480010B0AA /* OsiriX files */ = {
+			isa = PBXGroup;
+			children = (
+				4F35E164180EE9710010B0AA /* CPRStraightenedOperation.h */,
+				4F35E165180EE9710010B0AA /* CPRStraightenedOperation.m */,
+				4F35E166180EE9710010B0AA /* CPRStretchedOperation.h */,
+				4F35E167180EE9710010B0AA /* CPRStretchedOperation.m */,
+				4F35E161180EE9450010B0AA /* CPRGeneratorRequest.h */,
+				4F35E162180EE9450010B0AA /* CPRGeneratorRequest.m */,
+				4F35E15E180EE9320010B0AA /* CPRUnsignedInt16ImageRep.h */,
+				4F35E15F180EE9320010B0AA /* CPRUnsignedInt16ImageRep.m */,
+				4F35E15B180EE8F10010B0AA /* CPRProjectionOperation.h */,
+				4F35E15C180EE8F10010B0AA /* CPRProjectionOperation.m */,
+				4F35E158180EE8DF0010B0AA /* CPRVolumeData.h */,
+				4F35E159180EE8DF0010B0AA /* CPRVolumeData.m */,
+				4F35E155180EE8AF0010B0AA /* CPRHorizontalFillOperation.h */,
+				4F35E156180EE8AF0010B0AA /* CPRHorizontalFillOperation.m */,
+				4F35E152180EE8850010B0AA /* CPRGeneratorOperation.h */,
+				4F35E153180EE8850010B0AA /* CPRGeneratorOperation.m */,
+				4F35E14F180EE8680010B0AA /* CPRGenerator.h */,
+				4F35E150180EE8680010B0AA /* CPRGenerator.m */,
+				4F35E14C180EE8400010B0AA /* CPRObliqueSliceOperation.h */,
+				4F35E14D180EE8400010B0AA /* CPRObliqueSliceOperation.m */,
+				4F35E140180EE7B40010B0AA /* N3BezierCore.h */,
+				4F35E141180EE7B40010B0AA /* N3BezierCore.m */,
+				4F35E142180EE7B40010B0AA /* N3BezierCoreAdditions.h */,
+				4F35E143180EE7B40010B0AA /* N3BezierCoreAdditions.m */,
+				4F35E144180EE7B40010B0AA /* N3BezierPath.h */,
+				4F35E145180EE7B40010B0AA /* N3BezierPath.m */,
+				4F35E146180EE7B40010B0AA /* N3Geometry.h */,
+				4F35E147180EE7B40010B0AA /* N3Geometry.m */,
+				4F35E13D180EE76D0010B0AA /* CPRCurvedPath.h */,
+				4F35E13E180EE76D0010B0AA /* CPRCurvedPath.m */,
+			);
+			name = "OsiriX files";
+			sourceTree = "<group>";
+		};
 		4FA0A30A17EB7B8400492DF9 = {
 			isa = PBXGroup;
 			children = (
+				4F35E13C180EE7480010B0AA /* OsiriX files */,
 				4FA0A31817EB7B8400492DF9 /* CurvedPathDecoder */,
 				4FA0A31517EB7B8400492DF9 /* Frameworks */,
 				4FA0A31417EB7B8400492DF9 /* Products */,
@@ -84,6 +155,7 @@
 		4FA0A31517EB7B8400492DF9 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4F35E16A180EE99A0010B0AA /* AppKit.framework */,
 				4FAFA508180D712A00D74B8A /* Foundation.framework */,
 				4FAFA506180D712300D74B8A /* QuartzCore.framework */,
 				4FAFA504180D706800D74B8A /* Accelerate.framework */,
@@ -94,16 +166,6 @@
 		4FA0A31817EB7B8400492DF9 /* CurvedPathDecoder */ = {
 			isa = PBXGroup;
 			children = (
-				4FA0A33917EB898500492DF9 /* CPRCurvedPath.h */,
-				4FA0A33A17EB898500492DF9 /* CPRCurvedPath.m */,
-				4FA0A32417EB7BFF00492DF9 /* N3BezierCore.h */,
-				4FA0A32517EB7BFF00492DF9 /* N3BezierCore.m */,
-				4FA0A32D17EB7CB100492DF9 /* N3BezierCoreAdditions.h */,
-				4FA0A32E17EB7CB100492DF9 /* N3BezierCoreAdditions.m */,
-				4FA0A32617EB7BFF00492DF9 /* N3BezierPath.h */,
-				4FA0A32717EB7BFF00492DF9 /* N3BezierPath.m */,
-				4FA0A32817EB7BFF00492DF9 /* N3Geometry.h */,
-				4FA0A32917EB7BFF00492DF9 /* N3Geometry.m */,
 				4FA0A31917EB7B8400492DF9 /* main.m */,
 				4FA0A31B17EB7B8400492DF9 /* Supporting Files */,
 			);
@@ -170,12 +232,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FA0A32C17EB7BFF00492DF9 /* N3Geometry.m in Sources */,
-				4FA0A32B17EB7BFF00492DF9 /* N3BezierPath.m in Sources */,
-				4FA0A32A17EB7BFF00492DF9 /* N3BezierCore.m in Sources */,
+				4F35E14E180EE8400010B0AA /* CPRObliqueSliceOperation.m in Sources */,
+				4F35E163180EE9450010B0AA /* CPRGeneratorRequest.m in Sources */,
+				4F35E149180EE7B40010B0AA /* N3BezierCoreAdditions.m in Sources */,
+				4F35E168180EE9710010B0AA /* CPRStraightenedOperation.m in Sources */,
+				4F35E13F180EE76D0010B0AA /* CPRCurvedPath.m in Sources */,
+				4F35E15A180EE8DF0010B0AA /* CPRVolumeData.m in Sources */,
+				4F35E14A180EE7B40010B0AA /* N3BezierPath.m in Sources */,
+				4F35E160180EE9320010B0AA /* CPRUnsignedInt16ImageRep.m in Sources */,
+				4F35E14B180EE7B40010B0AA /* N3Geometry.m in Sources */,
+				4F35E151180EE8680010B0AA /* CPRGenerator.m in Sources */,
+				4F35E157180EE8AF0010B0AA /* CPRHorizontalFillOperation.m in Sources */,
+				4F35E148180EE7B40010B0AA /* N3BezierCore.m in Sources */,
 				4FA0A31A17EB7B8400492DF9 /* main.m in Sources */,
-				4FA0A32F17EB7CB100492DF9 /* N3BezierCoreAdditions.m in Sources */,
-				4FA0A33B17EB898500492DF9 /* CPRCurvedPath.m in Sources */,
+				4F35E15D180EE8F10010B0AA /* CPRProjectionOperation.m in Sources */,
+				4F35E169180EE9710010B0AA /* CPRStretchedOperation.m in Sources */,
+				4F35E154180EE8850010B0AA /* CPRGeneratorOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
