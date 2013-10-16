@@ -1,0 +1,3 @@
+[submodule "osirix"]
+	path = osirix
+	url = git@github.com:pixmeo/osirix.git
